@@ -39,4 +39,4 @@ class Major(db.Model):
         return f"{self.major}"
 
     # Only execute once! Initial load of majors
-    #db.engine.execute("INSERT INTO major(major) VALUES ('Accounting');")
+    #If what db.engine.execute("INSERT INTO major(major) VALUES ('Accounting');")
